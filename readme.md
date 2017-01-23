@@ -25,3 +25,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+
+--Task Done--
+A simple laravel application is ceated to operate CURD operation like reate and read operation. bootstrap id used for css.
+
+--Package Added--
+>laravelcollective/html(5.2.*) => this package is form and Html class 
+
+--Basic url info--
+root (/) -> this url disply the basic list of the inofrmation
+addinfo(/addinfo) -> this is the url for the adding the information. in this form email and phone nuber should be unique.
+info(/info/{email_id}) -> this page list the detail of email id passed in the url
+
+--host-- 
+the app is hosted to in heroku.com
+the url for application is 
+icdemocurd.herokuapp.com
+
+
+--Continuous Integration--
+the app is test wiring up with the semaphoreci.com
+[![Build Status](https://semaphoreci.com/api/v1/binodstha/icdemocurd/branches/master/badge.svg)](https://semaphoreci.com/binodstha/icdemocurd)
